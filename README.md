@@ -14,15 +14,17 @@ To use the TextToAudio Chrome Extension, follow these steps:
 
 1. Clone or download this repository to your local machine.
 
-2. Add your API key from RapidAPI to the code (JS file, line 25 and line 55)
+2. Run 'npm install' to add all the dependencies.
 
-3. Open Google Chrome and go to `chrome://extensions/` in the address bar.
+3. Add your API key from RapidAPI to the code (JS file, line 25 and line 55).
 
-4. Enable the "Developer mode" in the top right corner of the extensions page.
+4. Open Google Chrome and go to `chrome://extensions/` in the address bar.
 
-5. Click on "Load unpacked" and select the folder where you cloned/downloaded the extension.
+5. Enable the "Developer mode" in the top right corner of the extensions page.
 
-6. The TextToAudio extension will be added to your Chrome browser.
+6. Click on "Load unpacked" and select the folder where you cloned/downloaded the extension.
+
+7. The TextToAudio extension will be added to your Chrome browser.
 
 ## How to Use
 
