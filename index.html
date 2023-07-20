@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' https://summarize-texts.p.rapidapi.com https://text-to-speech27.p.rapidapi.com;">
+    <title>Text-to-Speech Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Text to Audio</h1>
+    <h3>Enter Your Text Here:</h3>
+    <textarea id="myTextArea" maxlength="1024"></textarea>
+    <button id="myButton">Let's hear it</button>
+    <audio id="myAudio" controls></audio>
+    
+    <details>
+        <summary><strong>View Summerized Text Here</strong></summary>
+        <textarea id="SummerizedTextArea" maxlength="1024" disabled></textarea>
+    </details>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
